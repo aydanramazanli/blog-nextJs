@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr min(960px, 90%) 1fr;
+  grid-template-rows: 70px minmax(calc(100vh - 140px), auto) 70px;
+}
+.container > * {
+  grid-column: 2;
+}
+
+.center{
+    width:100%;
+}
+.center h2{
+    font-size: 26px;
+    text-align: center;
+    color:white;
+}
